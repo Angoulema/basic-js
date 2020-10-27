@@ -27,7 +27,10 @@ if (Array.isArray(arr) && arr.length) {
        }
        else if (arr[i] === "--double-prev") {
          if ((arr[i - 1] === arrTransformed[i - 1]) && arrTransformed[i - 1]) {
-           arrTransformed.push(arr[i - 1]);
+           
+            arrTransformed.push(arr[i - 1]);
+           
+           
           
          }
          
